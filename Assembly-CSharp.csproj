@@ -56,11 +56,14 @@
     <Analyzer Include="C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\SampleScript\EggMiniGame\EggGameManager.cs" />
     <Compile Include="Assets\SampleScript\USBMiniGame\NoteBookMover.cs" />
+    <Compile Include="Assets\SampleScript\EggMiniGame\EggScript.cs" />
     <Compile Include="Assets\SampleScript\USBMiniGame\UsbMover.cs" />
     <Compile Include="Assets\SampleScript\USBMiniGame\UsbSetter.cs" />
-    <Compile Include="Assets\SampleScript\EggMiniGame\EggGameManager.cs" />
-    <Compile Include="Assets\SampleScript\EggMiniGame\EggScript.cs" />
+    <Compile Include="Assets\SampleScript\PizzaMiniGame\CutterMove.cs" />
+    <Compile Include="Assets\SampleScript\PizzaMiniGame\PizzaChecker.cs" />
+    <Compile Include="Assets\SampleScript\PizzaMiniGame\PizzaTrigger.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

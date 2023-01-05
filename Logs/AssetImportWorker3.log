@@ -9,11 +9,11 @@ C:\Program Files\Unity\Hub\Editor\2021.3.15f1\Editor\Unity.exe
 -batchMode
 -noUpm
 -name
-AssetImportWorker1
+AssetImportWorker3
 -projectPath
 C:/Users/defaultuser/Desktop/BoolPyeonMan/HelpMeBoolPyeonMan
 -logFile
-Logs/AssetImportWorker1.log
+Logs/AssetImportWorker3.log
 -srvPort
 63298
 Successfully changed project path to: C:/Users/defaultuser/Desktop/BoolPyeonMan/HelpMeBoolPyeonMan
@@ -47,11 +47,11 @@ C:/Users/defaultuser/Desktop/BoolPyeonMan/HelpMeBoolPyeonMan
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [1700] Host "[IP] 10.210.60.87 [Port] 0 [Flags] 2 [Guid] 468226901 [EditorId] 468226901 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AG8JFFH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [31944] Host "[IP] 10.210.60.87 [Port] 0 [Flags] 2 [Guid] 404178106 [EditorId] 404178106 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AG8JFFH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [1700] Host "[IP] 10.210.60.87 [Port] 0 [Flags] 2 [Guid] 468226901 [EditorId] 468226901 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AG8JFFH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [31944] Host "[IP] 10.210.60.87 [Port] 0 [Flags] 2 [Guid] 404178106 [EditorId] 404178106 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-AG8JFFH) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 90.29 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 95.05 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.15f1 (e8e88683f834)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Resources/UnitySubsystems
@@ -67,92 +67,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56808
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56736
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.15f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010748 seconds.
+Registered in 0.006890 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 73.88 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 79.60 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.669 seconds
+- Completed reload, in  0.627 seconds
 Domain Reload Profiling:
-	ReloadAssembly (669ms)
-		BeginReloadAssembly (119ms)
+	ReloadAssembly (628ms)
+		BeginReloadAssembly (68ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (437ms)
-			LoadAssemblies (118ms)
+		EndReloadAssembly (459ms)
+			LoadAssemblies (66ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (95ms)
+			SetupTypeCache (94ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (267ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (290ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (54ms)
+				InitializePlatformSupportModulesInManaged (52ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (74ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (94ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				RefreshPlugins (80ms)
+				BeforeProcessingInitializeOnLoad (3ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (54ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.020287 seconds.
+Registered in 0.012215 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\defaultuser\Desktop\BoolPyeonMan\HelpMeBoolPyeonMan\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\defaultuser\Desktop\BoolPyeonMan\HelpMeBoolPyeonMan\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 85.20 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 89.13 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.460 seconds
+- Completed reload, in  1.496 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1461ms)
-		BeginReloadAssembly (240ms)
+	ReloadAssembly (1497ms)
+		BeginReloadAssembly (255ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (139ms)
-		EndReloadAssembly (1081ms)
-			LoadAssemblies (187ms)
+			CreateAndSetChildDomain (151ms)
+		EndReloadAssembly (1080ms)
+			LoadAssemblies (126ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (292ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (68ms)
-			SetupLoadedEditorAssemblies (521ms)
+			RebuildScriptCaches (66ms)
+			SetupLoadedEditorAssemblies (544ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (85ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
+				RefreshPlugins (89ms)
+				BeforeProcessingInitializeOnLoad (99ms)
+				ProcessInitializeOnLoadAttributes (255ms)
+				ProcessInitializeOnLoadMethodAttributes (74ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (1ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.78 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4063 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 38 unused Assets / (56.5 KB). Loaded Objects now: 4522.
 Memory consumption went from 153.1 MB to 153.1 MB.
-Total: 5.902800 ms (FindLiveObjects: 0.476100 ms CreateObjectMapping: 0.284700 ms MarkObjects: 4.784000 ms  DeleteObjects: 0.354800 ms)
+Total: 3.804600 ms (FindLiveObjects: 0.490600 ms CreateObjectMapping: 0.226900 ms MarkObjects: 2.986100 ms  DeleteObjects: 0.099500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -166,40 +166,34 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 97258.379354 seconds.
-  path: Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz2.png
-  artifactKey: Guid(acacdca861d4b2c40ae1658e0ac811fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz2.png using Guid(acacdca861d4b2c40ae1658e0ac811fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56ad1e13834e0ecec5bc653207e0a88f') in 0.160162 seconds 
+  Time since last request: 97270.764867 seconds.
+  path: Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz3.png
+  artifactKey: Guid(f4dded81401500b4cb22661d6ecfa615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz3.png using Guid(f4dded81401500b4cb22661d6ecfa615) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bc9d6b2f46c38f916816502bf2bbf78') in 0.078236 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz5.png
-  artifactKey: Guid(615495a1e68e71743b6d386b5811a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz5.png using Guid(615495a1e68e71743b6d386b5811a4a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7308b716a447f9d4495bf0b53c4654dc') in 0.040679 seconds 
+  Time since last request: 702.039092 seconds.
+  path: Assets/SampleImage/EGGMiniGames/egg2.png
+  artifactKey: Guid(0d67c05c9a655e047ae3dc13025ee654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleImage/EGGMiniGames/egg2.png using Guid(0d67c05c9a655e047ae3dc13025ee654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '418023a4109897305fb2824e3176cbe9') in 0.082654 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz9.png
-  artifactKey: Guid(6880132bb53e5d340abe5883a557f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz9.png using Guid(6880132bb53e5d340abe5883a557f261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab72c8952083641d37d177755e4f1a58') in 0.042321 seconds 
+  Time since last request: 0.000036 seconds.
+  path: Assets/SampleImage/EGGMiniGames/계란껍질 2.png
+  artifactKey: Guid(3ec49316880dfe1468a3f6c184463aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleImage/EGGMiniGames/계란껍질 2.png using Guid(3ec49316880dfe1468a3f6c184463aad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '890a32688379bfc31f108a3bcc21ca31') in 0.019884 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 12.120930 seconds.
-  path: Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz2.png
-  artifactKey: Guid(acacdca861d4b2c40ae1658e0ac811fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz2.png using Guid(acacdca861d4b2c40ae1658e0ac811fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '147a26781767274db98d59d22354570c') in 0.018853 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/SampleImage/EGGMiniGames/계란껍질 3.png
+  artifactKey: Guid(351c8557dfe8bbc4c9708ef5f9305d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleImage/EGGMiniGames/계란껍질 3.png using Guid(351c8557dfe8bbc4c9708ef5f9305d1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1eacb5c7d077132313c67026b0bff86') in 0.018445 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz4.png
-  artifactKey: Guid(f4709a24295cc9b4bab977c8f2cbdb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz4.png using Guid(f4709a24295cc9b4bab977c8f2cbdb5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f209369d528b505c2f0ebdb5273fcdd4') in 0.008261 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz7.png
-  artifactKey: Guid(8db8e7c5fc124f143b90f51b9bb7d06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SampleImage/PizzaMiniGame/PIZZApiece/piz7.png using Guid(8db8e7c5fc124f143b90f51b9bb7d06c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0724de350d6c12297d373679340c874a') in 0.013151 seconds 
+  Time since last request: 0.000039 seconds.
+  path: Assets/SampleImage/EGGMiniGames/Lovepik_com-500935845-kitchen-background.jpg
+  artifactKey: Guid(caa4d48abbc3b4f459bcbe3283cfca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SampleImage/EGGMiniGames/Lovepik_com-500935845-kitchen-background.jpg using Guid(caa4d48abbc3b4f459bcbe3283cfca0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '392041cf7d3bc67f3a4098baf2f3b230') in 0.239939 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
