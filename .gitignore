@@ -37,3 +37,8 @@ Thumbs.db
 *.apk
 *.aab
 *.unitypackage
+
+# Test result dumps (relay runs)
+/t*_editmode_result*.txt
+/t*_test_result*.txt
+/test_results_*.txt
