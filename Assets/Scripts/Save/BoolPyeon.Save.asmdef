@@ -1,0 +1,16 @@
+{
+    "name": "BoolPyeon.Save",
+    "rootNamespace": "BoolPyeon.Save",
+    "references": [
+        "BoolPyeon.Battle"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

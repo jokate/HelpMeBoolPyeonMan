@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d875b3d6d4592124cb6520c8fecf3d57, type: 3}
+  m_Name: DLG_Story_Stage3
+  m_EditorClassIdentifier: BoolPyeon.Dialogue::BoolPyeon.Dialogue.DialogueDefinition
+  id: story_stage3
+  lines:
+  - speakerName: "\uC2A4\uD1A0\uB9AC \uC694\uC6D0"
+    portrait: {fileID: 0}
+    expression: Embarrassed
+    text: "\uBD88\uD3B8\uB9E8\uB2D8\uAED8 \uB4DC\uB9AC\uACE0 \uC2F6\uC740 \uAC8C
+      \uC788\uC5B4\uC694."
+  - speakerName: "\uC2A4\uD1A0\uB9AC \uC694\uC6D0"
+    portrait: {fileID: 0}
+    expression: Cheer
+    text: "\uC81C\uAC00 \uC190\uBD24\uC5B4\uC694, '\uC5F0\uC18D \uC9C0\uC6D0 Mk.II'\uC608\uC694."
+  - speakerName: "\uC2A4\uD1A0\uB9AC \uC694\uC6D0"
+    portrait: {fileID: 0}
+    expression: Joy
+    text: "\uC55E\uC73C\uB85C\uB3C4 \uC798 \uBD80\uD0C1\uB4DC\uB824\uC694, \uBD88\uD3B8\uB9E8\uB2D8."

@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: 7a84851b701e1ac4ab31768a92db0131
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5162843088135081140
+    second: FX_Hit_Spark_0
+  - first:
+      213: -8975613402609896557
+    second: FX_Hit_Spark_1
+  - first:
+      213: 738200926850679104
+    second: FX_Hit_Spark_2
+  - first:
+      213: -2473886624334521278
+    second: FX_Hit_Spark_3
+  - first:
+      213: 3029878428386259604
+    second: FX_Hit_Spark_4
+  - first:
+      213: -6785541125208151903
+    second: FX_Hit_Spark_5
+  - first:
+      213: -6154224364200706772
+    second: FX_Hit_Spark_6
+  - first:
+      213: -5816635265804983438
+    second: FX_Hit_Spark_7
+  - first:
+      213: -430328352101030196
+    second: FX_Hit_Spark_8
+  - first:
+      213: 9191022754231048279
+    second: FX_Hit_Spark_9
+  - first:
+      213: 1259768065099130857
+    second: FX_Hit_Spark_10
+  - first:
+      213: -5761967062745985648
+    second: FX_Hit_Spark_11
+  - first:
+      213: 8069043781956564697
+    second: FX_Hit_Spark_12
+  - first:
+      213: 4550488979707676869
+    second: FX_Hit_Spark_13
+  - first:
+      213: -7630405604472503745
+    second: FX_Hit_Spark_14
+  - first:
+      213: -6648637535957948365
+    second: FX_Hit_Spark_15
+  - first:
+      213: 4444301446820956437
+    second: FX_Hit_Spark_16
+  - first:
+      213: -3637104894738952345
+    second: FX_Hit_Spark_17
+  - first:
+      213: 5802386000060186122
+    second: FX_Hit_Spark_18
+  - first:
+      213: 2841801604770370165
+    second: FX_Hit_Spark_19
+  - first:
+      213: -2544529451953734073
+    second: FX_Hit_Spark_20
+  - first:
+      213: 7789263915046786345
+    second: FX_Hit_Spark_21
+  - first:
+      213: -9112049594737565403
+    second: FX_Hit_Spark_22
+  - first:
+      213: 3247363093994954268
+    second: FX_Hit_Spark_23
+  - first:
+      213: -2271080577754122228
+    second: FX_Hit_Spark_24
+  - first:
+      213: 8713596216853378802
+    second: FX_Hit_Spark_25
+  - first:
+      213: -8835729117705186498
+    second: FX_Hit_Spark_26
+  - first:
+      213: 2129476836315430744
+    second: FX_Hit_Spark_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FX_Hit_Spark_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f67a5d089d4e4de4f9bc8b47b10ff172
+      internalID: -5162843088135081140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Hit_Spark_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e937f7abb6e604c8fa0c5d415a5a12
+      internalID: -8975613402609896557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Hit_Spark_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2279d3ed0ecc13498a39cb6a04175fa
+      internalID: 738200926850679104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Hit_Spark_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dea10ea550836d141bae8fe9f9ef53d4
+      internalID: -2473886624334521278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 86389368b105f2b4c98ccd73d8fe6333
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FX_Hit_Spark_0: -5162843088135081140
+      FX_Hit_Spark_1: -8975613402609896557
+      FX_Hit_Spark_10: 1259768065099130857
+      FX_Hit_Spark_11: -5761967062745985648
+      FX_Hit_Spark_12: 8069043781956564697
+      FX_Hit_Spark_13: 4550488979707676869
+      FX_Hit_Spark_14: -7630405604472503745
+      FX_Hit_Spark_15: -6648637535957948365
+      FX_Hit_Spark_16: 4444301446820956437
+      FX_Hit_Spark_17: -3637104894738952345
+      FX_Hit_Spark_18: 5802386000060186122
+      FX_Hit_Spark_19: 2841801604770370165
+      FX_Hit_Spark_2: 738200926850679104
+      FX_Hit_Spark_20: -2544529451953734073
+      FX_Hit_Spark_21: 7789263915046786345
+      FX_Hit_Spark_22: -9112049594737565403
+      FX_Hit_Spark_23: 3247363093994954268
+      FX_Hit_Spark_24: -2271080577754122228
+      FX_Hit_Spark_25: 8713596216853378802
+      FX_Hit_Spark_26: -8835729117705186498
+      FX_Hit_Spark_27: 2129476836315430744
+      FX_Hit_Spark_3: -2473886624334521278
+      FX_Hit_Spark_4: 3029878428386259604
+      FX_Hit_Spark_5: -6785541125208151903
+      FX_Hit_Spark_6: -6154224364200706772
+      FX_Hit_Spark_7: -5816635265804983438
+      FX_Hit_Spark_8: -430328352101030196
+      FX_Hit_Spark_9: 9191022754231048279
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

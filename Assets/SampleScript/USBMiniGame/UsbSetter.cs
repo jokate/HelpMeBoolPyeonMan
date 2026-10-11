@@ -14,6 +14,19 @@ public class UsbSetter : MonoBehaviour
         float randomPos = Random.Range(downPosition.transform.position.y, upPosition.transform.position.y);
         this.gameObject.transform.position = new Vector2(gameObject.transform.position.x, randomPos);
     }
+    /// <summary>난이도가 오를수록 포트 판정 높이를 줄인다 (최소 0.5배).</summary>
+    public void ApplyDifficulty(int difficulty)
+    {
+        BoxCollider2D box = GetComponent<BoxCollider2D>();
+        if (box == null)
+        {
+            return;
+        }
+        float scale = Mathf.Max(0.5f, 1f - 0.15f * (difficulty - 1));
+        Vector2 size = box.size;
+        size.y *= scale;
+        box.size = size;
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.CompareTag("ClearObject"))

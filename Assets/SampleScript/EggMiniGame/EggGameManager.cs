@@ -1,80 +1,130 @@
-using JetBrains.Annotations;
-using System.Collections;
 using System.Collections.Generic;
-using System.Runtime.ExceptionServices;
-using Unity.VisualScripting;
 using UnityEngine;
+using BoolPyeon.MiniGames;
+using BoolPyeon.Input;
+using BoolPyeon.Input.Interaction;
 
-public class EggGameManager : MonoBehaviour
+public class EggGameManager : MiniGameBase
 {
-
-    public static int Level = 2;
+    // 난이도 1 에서의 껍질 수. 실제 개수 = Clamp(baseShellCount + Difficulty - 1, 1, maxShellCount)
+    public int baseShellCount = 2;
+    public int maxShellCount = 6;
+    // ctx.TimeLimit 이 없을 때(씬 단독 Play) 쓰는 제한 시간
+    public float baseTimeLimit = 5f;
     public GameObject originalEgg, downPos, upPos;
     public List<GameObject> eggShells;
     public List<GameObject> speggShells;
-    private GameObject target;
+    public TapInteraction tap = new TapInteraction();
     private bool isFailed = false;
+    private float timeLimit;
+    private float elapsed;
 
-    private void Start()
+    protected override Animator ResultAnimator => originalEgg.GetComponent<Animator>();
+
+    protected override void OnBegin(MiniGameContext ctx)
     {
-        for(int i = 0; i < Level; i++)
+        speggShells.Clear();
+        isFailed = false;
+        int count = Mathf.Clamp(baseShellCount + ctx.Difficulty - 1, 1, Mathf.Max(1, maxShellCount));
+        for(int i = 0; i < count; i++)
         {
             float x = Random.Range(downPos.transform.position.x, upPos.transform.position.x);
             float y = Random.Range(downPos.transform.position.y, upPos.transform.position.y);
             int number = Random.Range(0, eggShells.Count);
-            Debug.Log(number);
             GameObject speggshell = Instantiate(eggShells[number], originalEgg.transform);
             speggshell.transform.position = new Vector2(x, y);
             speggShells.Add(speggshell);
         }
-        StartCoroutine(SuccessCheck());
-        StartCoroutine(FailedCheck());
+        timeLimit = ctx.TimeLimit > 0f ? ctx.TimeLimit : baseTimeLimit;
+        elapsed = 0f;
+        Watch(new PredicateCondition(MiniGameResult.Failed, () => isFailed));
+        Watch(new PredicateCondition(MiniGameResult.Success, () => speggShells.Count == 0 && !isFailed));
     }
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!IsRunning)
         {
-            CastRay();
+            return;
+        }
+
+        elapsed += Time.deltaTime;
+        if (elapsed >= timeLimit)
+        {
+            isFailed = true;
+            return;
+        }
+
+        if (!PointerInput.Down)
+        {
+            return;
+        }
+
+        GameObject target = PickTarget();
+        if (target == null)
+        {
+            return;
+        }
+        if (target == originalEgg)
+        {
+            isFailed = true;
+        }
+        else
+        {
+            speggShells.Remove(target);
+            Destroy(target);
         }
     }
 
-    private void FixedUpdate()
+    // 누른 지점의 콜라이더를 모두 모아 껍질을 달걀보다 먼저 고른다.
+    // Raycast(zero)는 겹친 콜라이더 중 아무거나 돌려주므로 쓰지 않는다.
+    private GameObject PickTarget()
     {
-
-    }
-    private void CastRay() {
-
-        Vector3 mousePos = Input.mousePosition;
-        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-        Ray2D ray = new Ray2D(mousePos, Vector2.zero);
-        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
-
-        if (hit)
+        if (tap.ignoreOverUI && PointerInput.IsOverUI())
         {
-            target = hit.transform.gameObject;
-            if (target != null && target.name == originalEgg.name)
-            {
-                isFailed = true;
-            } else if (target != null && speggShells.Contains(target))
-            {
-                speggShells.Remove(target);
-                Destroy(target);
+            return null;
+        }
 
+        Collider2D[] hits = Physics2D.OverlapPointAll(PointerInput.WorldPosition());
+        int bestIndex = -1;
+        bool eggHit = false;
+        foreach (Collider2D col in hits)
+        {
+            if (col == null)
+            {
+                continue;
+            }
+            GameObject go = col.gameObject;
+            int index = IndexOfShell(go.transform);
+            if (index > bestIndex)
+            {
+                bestIndex = index;
+            }
+            else if (index < 0 && go == originalEgg)
+            {
+                eggHit = true;
             }
         }
+
+        if (bestIndex >= 0)
+        {
+            return speggShells[bestIndex];
+        }
+        return eggHit ? originalEgg : null;
     }
-    IEnumerator FailedCheck()
+
+    // 콜라이더가 껍질 프리팹의 자식에 붙어 있어도 껍질로 인정한다.
+    private int IndexOfShell(Transform t)
     {
-        yield return new WaitUntil(() => isFailed == true);
-        Debug.Log("oh no...");
-        
-        originalEgg.GetComponent<Animator>().SetBool("isFailed", true);
-    }
-    IEnumerator SuccessCheck()
-    {
-        yield return new WaitUntil(() => speggShells.Count == 0);
-        Debug.Log("Good");
-        this.enabled = false;
+        while (t != null && t.gameObject != originalEgg)
+        {
+            int index = speggShells.IndexOf(t.gameObject);
+            if (index >= 0)
+            {
+                return index;
+            }
+            t = t.parent;
+        }
+        return -1;
     }
 }

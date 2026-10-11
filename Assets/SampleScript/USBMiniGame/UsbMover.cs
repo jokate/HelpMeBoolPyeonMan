@@ -1,62 +1,68 @@
 using System.Collections;
 using System.Collections.Generic;
-using Unity.VisualScripting;
 using UnityEngine;
-using static UnityEngine.GraphicsBuffer;
+using BoolPyeon.MiniGames;
+using BoolPyeon.Input.Interaction;
 
 
-public class UsbMover : MonoBehaviour
+public class UsbMover : MiniGameBase
 {
     public GameObject target, startpos, usbSetter, noteBookMover;
-    private bool isTouched = false;
-    // Start is called before the first frame update
-    void Start()
+    // 초당 이동 거리 (예전 FixedUpdate 0.075/스텝 × 50Hz)
+    public float riseSpeed = 3.75f;
+    public HoldInteraction hold = new HoldInteraction();
+
+    private NoteBookMover noteBook;
+    private UsbSetter setter;
+
+    protected override Animator ResultAnimator => GetComponent<Animator>();
+
+    protected override void OnBegin(MiniGameContext ctx)
     {
-        StartCoroutine(ClearChecker());
+        noteBook = noteBookMover.GetComponent<NoteBookMover>();
+        setter = usbSetter.GetComponent<UsbSetter>();
+        if (setter != null)
+        {
+            setter.ApplyDifficulty(ctx.Difficulty);
+        }
+        noteBook.Launch(ctx.Speed);
+        Watch(new PredicateCondition(MiniGameResult.Failed, () => noteBook.isCollide && !setter.isClear));
+        Watch(new PredicateCondition(MiniGameResult.Success, () => noteBook.isCollide && setter.isClear));
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if(Input.GetMouseButtonDown(0))
+        if (!IsRunning || noteBook == null || noteBook.isCollide)
         {
-            isTouched = true;
-        } else if(Input.GetMouseButtonUp(0))
-        {
-            isTouched = false;
+            return;
         }
+        hold.Tick();
+        float targetY = hold.IsHolding ? target.transform.position.y : startpos.transform.position.y;
+        float step = riseSpeed * Context.Speed * Time.deltaTime;
+        transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, targetY), step);
     }
-    private void FixedUpdate()
-    {
-        if (!noteBookMover.GetComponent<NoteBookMover>().isCollide)
-        {
-            if (isTouched)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, target.transform.position.y), 0.075f);
 
-            }
-            else
-            {
-                transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x, startpos.transform.position.y), 0.075f);
-            }
+    protected override void OnResolved(MiniGameResult result)
+    {
+        base.OnResolved(result);
+        if (result == MiniGameResult.Success)
+        {
+            StartCoroutine(SlideOut());
+        }
+        else
+        {
+            Debug.Log("Oh no..");
         }
     }
-    IEnumerator ClearChecker()
+
+    IEnumerator SlideOut()
     {
-        yield return new WaitUntil(() => noteBookMover.GetComponent<NoteBookMover>().isCollide == true);
-        if(usbSetter.GetComponent<UsbSetter>().isClear)
+        float time = 1f;
+        while (time > 0.0f)
         {
-            float time = 1f;
-            while(time > 0.0f)
-            {
-                transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x-0.1f, transform.position.y), 0.001f);
-                time -= Time.deltaTime;
-                yield return null;
-            }
-        } else
-        {
-            this.gameObject.GetComponent<Animator>().SetBool("isFailed", true);
-            Debug.Log("Oh no..");
+            transform.position = Vector2.MoveTowards(transform.position, new Vector2(transform.position.x - 0.1f, transform.position.y), 0.001f);
+            time -= Time.deltaTime;
+            yield return null;
         }
     }
 }

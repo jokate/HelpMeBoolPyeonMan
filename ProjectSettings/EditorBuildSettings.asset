@@ -6,6 +6,58 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Boot.unity
+    guid: 9b3194a376c41de4f88581dd151a039b
+  - enabled: 1
+    path: Assets/Scenes/Title.unity
+    guid: d15b0198b0fd58447a4a486ef06b1aeb
+  - enabled: 1
+    path: Assets/Scenes/Battle.unity
+    guid: 267b91368a221004bbddfecbd3c41fc5
+  - enabled: 1
+    path: Assets/Scenes/HQ.unity
+    guid: da93d2d654a767e45bd1a2b9b8268816
+  - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/EggMiniGame.unity
+    guid: 7773f53d072d3bd42a09217a6df1b29f
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/PizzaMiniGame.unity
+    guid: 4ea0c5eced066d740b5585366ec55772
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/USBMiniGame.unity
+    guid: f057dfd637988f84b94d83b38c9b15b8
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/TapTargetMiniGame.unity
+    guid: 78de9069f0361a04aa92199338538c90
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/TemplateMiniGame.unity
+    guid: be970d69eff2fa1459cd0bb0e817565a
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/SamgakKimbapMiniGame.unity
+    guid: a1ecd83374f13d64bbbe8c527e0def78
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/PeelStickerMiniGame.unity
+    guid: ce7b4a0e0855f9d43b0d40c7e59419d5
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/ScreenBubbleMiniGame.unity
+    guid: 60ef49ae1acd4dc43a6128e3ec8399b3
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/ButtonShirtMiniGame.unity
+    guid: 12e2abd615eb699419e0bcecd61b211f
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/VacuumMiniGame.unity
+    guid: eb99b41cb94f80d46aefd3d161384a08
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/FlySwatMiniGame.unity
+    guid: 31a7c5d889df03d41909662a8547514f
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/BossBlobMiniGame.unity
+    guid: 47ee12fb72a74d74e892b899920f8148
+  - enabled: 1
+    path: Assets/Scenes/MiniGames/VacuumWidenMiniGame.unity
+    guid: 7ee663e267bd0f14b987641ded6c8dd6
   m_configObjects: {}
+  m_UseUCBPForAssetBundles: 0

@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc069eb3682d3e4b94aa31e8f073934, type: 3}
+  m_Name: S1_RubberGloveShield
+  m_EditorClassIdentifier: BoolPyeon.Battle::BoolPyeon.Battle.MonsterDefinition
+  displayName: "\uACE0\uBB34\uC7A5\uAC11 \uBC29\uD328"
+  maxHp: 34
+  attack: 2
+  defense: 4
+  type: 1
+  role: 1
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  spriteOverride: {fileID: 21300000, guid: 2ffbfbd8563de2b4a90c9b0b6e6f9952, type: 3}
+  attackSprite: {fileID: 21300000, guid: 626756c8d43ea8241bd57e3e9ab0dd50, type: 3}
+  hitSprite: {fileID: 21300000, guid: 731c375ecaf178c4b9667710b9a26a02, type: 3}
+  actions:
+  - id: basic
+    kind: 0
+    weight: 1
+    damageMultiplier: 1
+    cooldownTurns: 0
+    statuses: []
+    miniGameIds: []
+    targetsAllies: 0
+    effectTurns: 1
+    effectMagnitude: 0
+    considerations: []
+  - id: guard_self
+    kind: 3
+    weight: 1.2
+    damageMultiplier: 1
+    cooldownTurns: 2
+    statuses: []
+    miniGameIds: []
+    targetsAllies: 0
+    effectTurns: 1
+    effectMagnitude: 0
+    considerations: []
+  - id: guard_all
+    kind: 3
+    weight: 0.6
+    damageMultiplier: 1
+    cooldownTurns: 3
+    statuses: []
+    miniGameIds: []
+    targetsAllies: 1
+    effectTurns: 1
+    effectMagnitude: 0
+    considerations: []
+  - id: patch
+    kind: 6
+    weight: 0.4
+    damageMultiplier: 1
+    cooldownTurns: 3
+    statuses: []
+    miniGameIds: []
+    targetsAllies: 1
+    effectTurns: 1
+    effectMagnitude: 0
+    considerations: []
+  - id: grip
+    kind: 2
+    weight: 0.5
+    damageMultiplier: 1.2
+    cooldownTurns: 3
+    statuses:
+    - type: 3
+      turns: 1
+      magnitude: 0.5
+    miniGameIds:
+    - button_shirt
+    - peel_sticker
+    targetsAllies: 0
+    effectTurns: 1
+    effectMagnitude: 0
+    considerations: []
+  randomness: 0.7
+  actionPattern: 00000000
+  specialInterval: 0
+  specialDamageMultiplier: 2
+  evasionMiniGameIds: []
+  specialMiniGameIds:
+  - button_shirt
+  - peel_sticker
+  penalty: 2
+  penaltyTurns: 1
+  penaltyMagnitude: 0.5
+  isBoss: 0
+  phase2Threshold: 0
+  phase2Actions: []

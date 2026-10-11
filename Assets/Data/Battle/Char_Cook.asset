@@ -1,0 +1,39 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd08a17d6e648f74d9e87050f41a1887, type: 3}
+  m_Name: Char_Cook
+  m_EditorClassIdentifier: BoolPyeon.Battle::BoolPyeon.Battle.CharacterDefinition
+  id: cook
+  displayName: "\uC694\uB9AC \uB2F4\uB2F9"
+  maxHp: 30
+  attack: 3
+  defense: 0
+  type: 0
+  trait: 1
+  standSprite: {fileID: 21300000, guid: fdc52ab9a561ef343a01e385e69008af, type: 3}
+  attackFrames:
+  - {fileID: 83455794990392865, guid: ec6e8b70f8c8ae5479bb9e8d16d5c79d, type: 3}
+  - {fileID: 5063983641522729757, guid: ec6e8b70f8c8ae5479bb9e8d16d5c79d, type: 3}
+  - {fileID: -6583671074125451681, guid: ec6e8b70f8c8ae5479bb9e8d16d5c79d, type: 3}
+  defendFrames:
+  - {fileID: -599620838808348335, guid: 06512c0b9cf2a3b4c8bc95c2c5eb867e, type: 3}
+  - {fileID: -7150874237282144868, guid: 06512c0b9cf2a3b4c8bc95c2c5eb867e, type: 3}
+  - {fileID: 5675520971555084650, guid: 06512c0b9cf2a3b4c8bc95c2c5eb867e, type: 3}
+  hitSprite: {fileID: 21300000, guid: 250a3bea2bdd4034792693f0172c5486, type: 3}
+  skillFrames:
+  - {fileID: 2106712162477621775, guid: e2bc5810262e5dd4cad5f3935a3fb31f, type: 3}
+  - {fileID: -5431492393185067441, guid: e2bc5810262e5dd4cad5f3935a3fb31f, type: 3}
+  - {fileID: 8785236959278652174, guid: e2bc5810262e5dd4cad5f3935a3fb31f, type: 3}
+  attackSkill: {fileID: 11400000, guid: 0c59a83c913e25b4185c737269e9f066, type: 2}
+  guardSkill: {fileID: 11400000, guid: caa878c4ff3030a43b009fc1a0385df3, type: 2}
+  skills:
+  - {fileID: 11400000, guid: 84ae89b0b9966274db903f0ac264b0d4, type: 2}

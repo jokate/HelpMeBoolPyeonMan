@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 989ebefc9fadbe6489fe1be38c1e74f8, type: 3}
+  m_Name: Stage_2
+  m_EditorClassIdentifier: BoolPyeon.Battle::BoolPyeon.Battle.StageDefinition
+  stageNumber: 2
+  displayName: "2\uC2A4\uD14C\uC774\uC9C0"
+  combatRooms:
+  - {fileID: 11400000, guid: aa582792c7c93124a92c84624ec491db, type: 2}
+  - {fileID: 11400000, guid: 3d6799e6ea750c749aec2ee0f5ffcb65, type: 2}
+  - {fileID: 11400000, guid: bcfd9d69a02df1942902b41c638f6dc4, type: 2}
+  - {fileID: 11400000, guid: 2f988c11067d39d44bb20f42e3a3d73d, type: 2}
+  eliteRooms:
+  - {fileID: 11400000, guid: da565b4e4996e8a42bfa708a38802a80, type: 2}
+  - {fileID: 11400000, guid: 1b3639568a9156e438dd776c10ed53ad, type: 2}
+  bossRoom: {fileID: 11400000, guid: bda62393c37a7314d94be5b23d61a70a, type: 2}
+  monsterHpMultiplier: 1.3
+  monsterAttackMultiplier: 1.2

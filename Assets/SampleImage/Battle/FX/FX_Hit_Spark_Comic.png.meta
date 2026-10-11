@@ -1,0 +1,385 @@
+fileFormatVersion: 2
+guid: 822270fd0e955b84984949929cac9785
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3920352310507748443
+    second: FX_Hit_Spark_Comic_0
+  - first:
+      213: -2931185324348658456
+    second: FX_Hit_Spark_Comic_1
+  - first:
+      213: -5989990665022411088
+    second: FX_Hit_Spark_Comic_2
+  - first:
+      213: 6599580186174420750
+    second: FX_Hit_Spark_Comic_3
+  - first:
+      213: 8360310175463710901
+    second: FX_Hit_Spark_Comic_4
+  - first:
+      213: 2148588961348702056
+    second: FX_Hit_Spark_Comic_5
+  - first:
+      213: -3707001453273167018
+    second: FX_Hit_Spark_Comic_6
+  - first:
+      213: -6393435514348997787
+    second: FX_Hit_Spark_Comic_7
+  - first:
+      213: -1211776588479389628
+    second: FX_Hit_Spark_Comic_8
+  - first:
+      213: 1783244400276748300
+    second: FX_Hit_Spark_Comic_9
+  - first:
+      213: -240432487043146570
+    second: FX_Hit_Spark_Comic_10
+  - first:
+      213: 2779782777700962536
+    second: FX_Hit_Spark_Comic_11
+  - first:
+      213: -8556017613622338360
+    second: FX_Hit_Spark_Comic_12
+  - first:
+      213: -2126079949377951162
+    second: FX_Hit_Spark_Comic_13
+  - first:
+      213: 7552881630908942818
+    second: FX_Hit_Spark_Comic_14
+  - first:
+      213: -845424089944723247
+    second: FX_Hit_Spark_Comic_15
+  - first:
+      213: -8150134739296350194
+    second: FX_Hit_Spark_Comic_16
+  - first:
+      213: 3661805311898274494
+    second: FX_Hit_Spark_Comic_17
+  - first:
+      213: -2176581887141214296
+    second: FX_Hit_Spark_Comic_18
+  - first:
+      213: -2631727811937457085
+    second: FX_Hit_Spark_Comic_19
+  - first:
+      213: 920501665998116992
+    second: FX_Hit_Spark_Comic_20
+  - first:
+      213: 3391228933461940733
+    second: FX_Hit_Spark_Comic_21
+  - first:
+      213: -3856163341758621969
+    second: FX_Hit_Spark_Comic_22
+  - first:
+      213: -3355912952138485545
+    second: FX_Hit_Spark_Comic_23
+  - first:
+      213: -8936347846531286586
+    second: FX_Hit_Spark_Comic_24
+  - first:
+      213: 3933317347926743400
+    second: FX_Hit_Spark_Comic_25
+  - first:
+      213: 104617792033952318
+    second: FX_Hit_Spark_Comic_26
+  - first:
+      213: -2219084932019354019
+    second: FX_Hit_Spark_Comic_27
+  - first:
+      213: 6671299618189533236
+    second: FX_Hit_Spark_Comic_28
+  - first:
+      213: -2412084718175674343
+    second: FX_Hit_Spark_Comic_29
+  - first:
+      213: -2450148976364440375
+    second: FX_Hit_Spark_Comic_30
+  - first:
+      213: -5498502575319793848
+    second: FX_Hit_Spark_Comic_31
+  - first:
+      213: 4379412874143756561
+    second: FX_Hit_Spark_Comic_32
+  - first:
+      213: 368523664663798753
+    second: FX_Hit_Spark_Comic_33
+  - first:
+      213: 6377445891696333508
+    second: FX_Hit_Spark_Comic_34
+  - first:
+      213: -5902670161975682597
+    second: FX_Hit_Spark_Comic_35
+  - first:
+      213: -6126451763002550126
+    second: FX_Hit_Spark_Comic_36
+  - first:
+      213: 3909348485178472603
+    second: FX_Hit_Spark_Comic_37
+  - first:
+      213: -2427903217212701679
+    second: FX_Hit_Spark_Comic_38
+  - first:
+      213: 7243708987749719073
+    second: FX_Hit_Spark_Comic_39
+  - first:
+      213: -9099552201982086071
+    second: FX_Hit_Spark_Comic_40
+  - first:
+      213: 2441458123337779811
+    second: FX_Hit_Spark_Comic_41
+  - first:
+      213: 5764372941863297565
+    second: FX_Hit_Spark_Comic_42
+  - first:
+      213: 1828572269232491325
+    second: FX_Hit_Spark_Comic_43
+  - first:
+      213: 7797218032218367839
+    second: FX_Hit_Spark_Comic_44
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1412
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FX_Hit_Spark_Comic_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 353
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b15f342a59b8e08438a61642ecd5c8ff
+      internalID: 3920352310507748443
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Hit_Spark_Comic_1
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 353
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 93adc74f5ed976c4089c50440e635525
+      internalID: -2931185324348658456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Hit_Spark_Comic_2
+      rect:
+        serializedVersion: 2
+        x: 706
+        y: 0
+        width: 353
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48ab53dbc973b134d87fb39ccf14e404
+      internalID: -5989990665022411088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Hit_Spark_Comic_3
+      rect:
+        serializedVersion: 2
+        x: 1059
+        y: 0
+        width: 353
+        height: 353
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92a478ee58047db41929d3dd796d434a
+      internalID: 6599580186174420750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: b3b1472ff09a31d45a6473bf49c4c5f3
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FX_Hit_Spark_Comic_0: 3920352310507748443
+      FX_Hit_Spark_Comic_1: -2931185324348658456
+      FX_Hit_Spark_Comic_10: -240432487043146570
+      FX_Hit_Spark_Comic_11: 2779782777700962536
+      FX_Hit_Spark_Comic_12: -8556017613622338360
+      FX_Hit_Spark_Comic_13: -2126079949377951162
+      FX_Hit_Spark_Comic_14: 7552881630908942818
+      FX_Hit_Spark_Comic_15: -845424089944723247
+      FX_Hit_Spark_Comic_16: -8150134739296350194
+      FX_Hit_Spark_Comic_17: 3661805311898274494
+      FX_Hit_Spark_Comic_18: -2176581887141214296
+      FX_Hit_Spark_Comic_19: -2631727811937457085
+      FX_Hit_Spark_Comic_2: -5989990665022411088
+      FX_Hit_Spark_Comic_20: 920501665998116992
+      FX_Hit_Spark_Comic_21: 3391228933461940733
+      FX_Hit_Spark_Comic_22: -3856163341758621969
+      FX_Hit_Spark_Comic_23: -3355912952138485545
+      FX_Hit_Spark_Comic_24: -8936347846531286586
+      FX_Hit_Spark_Comic_25: 3933317347926743400
+      FX_Hit_Spark_Comic_26: 104617792033952318
+      FX_Hit_Spark_Comic_27: -2219084932019354019
+      FX_Hit_Spark_Comic_28: 6671299618189533236
+      FX_Hit_Spark_Comic_29: -2412084718175674343
+      FX_Hit_Spark_Comic_3: 6599580186174420750
+      FX_Hit_Spark_Comic_30: -2450148976364440375
+      FX_Hit_Spark_Comic_31: -5498502575319793848
+      FX_Hit_Spark_Comic_32: 4379412874143756561
+      FX_Hit_Spark_Comic_33: 368523664663798753
+      FX_Hit_Spark_Comic_34: 6377445891696333508
+      FX_Hit_Spark_Comic_35: -5902670161975682597
+      FX_Hit_Spark_Comic_36: -6126451763002550126
+      FX_Hit_Spark_Comic_37: 3909348485178472603
+      FX_Hit_Spark_Comic_38: -2427903217212701679
+      FX_Hit_Spark_Comic_39: 7243708987749719073
+      FX_Hit_Spark_Comic_4: 8360310175463710901
+      FX_Hit_Spark_Comic_40: -9099552201982086071
+      FX_Hit_Spark_Comic_41: 2441458123337779811
+      FX_Hit_Spark_Comic_42: 5764372941863297565
+      FX_Hit_Spark_Comic_43: 1828572269232491325
+      FX_Hit_Spark_Comic_44: 7797218032218367839
+      FX_Hit_Spark_Comic_5: 2148588961348702056
+      FX_Hit_Spark_Comic_6: -3707001453273167018
+      FX_Hit_Spark_Comic_7: -6393435514348997787
+      FX_Hit_Spark_Comic_8: -1211776588479389628
+      FX_Hit_Spark_Comic_9: 1783244400276748300
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

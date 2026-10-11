@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5463cb1dfc813814cabd99e6ab0b0fad, type: 3}
+  m_Name: Affinity_Story
+  m_EditorClassIdentifier: BoolPyeon.Meta::BoolPyeon.Meta.AffinityDefinition
+  agentId: Agent_Story
+  talkDialogue: {fileID: 11400000, guid: 9b1bd48dd1255c341a4bcf83cc005860, type: 2}
+  stages:
+  - requiredPoints: 1
+    storyDialogue: {fileID: 11400000, guid: 32e2b6e3a23715847878728dbfdcfb2b, type: 2}
+    rewardKind: 1
+    amount: 20
+    module: {fileID: 0}
+  - requiredPoints: 2
+    storyDialogue: {fileID: 11400000, guid: 2c35b602fdc939f479d2791658521452, type: 2}
+    rewardKind: 2
+    amount: 1
+    module: {fileID: 0}
+  - requiredPoints: 4
+    storyDialogue: {fileID: 11400000, guid: c5e48e3259fb42a468ea133376779e2a, type: 2}
+    rewardKind: 3
+    amount: 0
+    module: {fileID: 11400000, guid: 00c91a2b05de5664e99b8a477eb4784b, type: 2}

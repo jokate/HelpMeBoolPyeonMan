@@ -1,0 +1,265 @@
+fileFormatVersion: 2
+guid: e25a9fee7e9602045a0d0b43978e762a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7473021106943850459
+    second: FX_Cleanse_Sparkle_0
+  - first:
+      213: 5363163252562587296
+    second: FX_Cleanse_Sparkle_1
+  - first:
+      213: -4089880173588930269
+    second: FX_Cleanse_Sparkle_2
+  - first:
+      213: -760708864908016574
+    second: FX_Cleanse_Sparkle_3
+  - first:
+      213: -6727254769846357017
+    second: FX_Cleanse_Sparkle_4
+  - first:
+      213: -7884505960345193787
+    second: FX_Cleanse_Sparkle_5
+  - first:
+      213: 3415221361232179811
+    second: FX_Cleanse_Sparkle_6
+  - first:
+      213: -2076411341091521847
+    second: FX_Cleanse_Sparkle_7
+  - first:
+      213: -3005439571800287953
+    second: FX_Cleanse_Sparkle_8
+  - first:
+      213: -5412082789392513213
+    second: FX_Cleanse_Sparkle_9
+  - first:
+      213: -6902643668013773209
+    second: FX_Cleanse_Sparkle_10
+  - first:
+      213: 6080199426128618255
+    second: FX_Cleanse_Sparkle_11
+  - first:
+      213: -8400341163807130396
+    second: FX_Cleanse_Sparkle_12
+  - first:
+      213: 5607231799019337897
+    second: FX_Cleanse_Sparkle_13
+  - first:
+      213: 1673104439524800875
+    second: FX_Cleanse_Sparkle_14
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1024
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FX_Cleanse_Sparkle_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85731bdf4c17d2c479c00b9821f51f3b
+      internalID: -7473021106943850459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Cleanse_Sparkle_1
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91cc046c5238d2242a41d2124d17e7f1
+      internalID: 5363163252562587296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Cleanse_Sparkle_2
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 952619807e8bfb049abc73aa353386a8
+      internalID: -4089880173588930269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Cleanse_Sparkle_3
+      rect:
+        serializedVersion: 2
+        x: 768
+        y: 0
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d486c157f87694144a52af3b618ccc25
+      internalID: -760708864908016574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: f081c9c96e0eb5d41b79a2eb0df012dd
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FX_Cleanse_Sparkle_0: -7473021106943850459
+      FX_Cleanse_Sparkle_1: 5363163252562587296
+      FX_Cleanse_Sparkle_10: -6902643668013773209
+      FX_Cleanse_Sparkle_11: 6080199426128618255
+      FX_Cleanse_Sparkle_12: -8400341163807130396
+      FX_Cleanse_Sparkle_13: 5607231799019337897
+      FX_Cleanse_Sparkle_14: 1673104439524800875
+      FX_Cleanse_Sparkle_2: -4089880173588930269
+      FX_Cleanse_Sparkle_3: -760708864908016574
+      FX_Cleanse_Sparkle_4: -6727254769846357017
+      FX_Cleanse_Sparkle_5: -7884505960345193787
+      FX_Cleanse_Sparkle_6: 3415221361232179811
+      FX_Cleanse_Sparkle_7: -2076411341091521847
+      FX_Cleanse_Sparkle_8: -3005439571800287953
+      FX_Cleanse_Sparkle_9: -5412082789392513213
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d875b3d6d4592124cb6520c8fecf3d57, type: 3}
+  m_Name: DLG_Tutorial_Boss
+  m_EditorClassIdentifier: BoolPyeon.Dialogue::BoolPyeon.Dialogue.DialogueDefinition
+  id: Tutorial_Boss
+  lines:
+  - speakerName: "\uBD88\uD3B8\uC758 \uC545\uB9C8"
+    portrait: {fileID: 0}
+    expression: Annoyed
+    text: "\uC81C\uBC95\uC774\uAD70, \uB9E8\uBAB8\uC73C\uB85C \uC5EC\uAE30\uAE4C\uC9C0
+      \uC624\uB2E4\uB2C8. \uB0B4 \uC9C4\uC9DC \uD798\uC744 \uBCF4\uC5EC\uC8FC\uB9C8!"
+  - speakerName: "\uD68C\uC0AC\uC6D0"
+    portrait: {fileID: 0}
+    expression: Determined
+    text: "\uADF8 \uC815\uB3C4\uB85C \uB0B4 \uD1F4\uADFC \uD6C4 \uC77C\uC0C1\uC744
+      \uB9DD\uCE60 \uC218 \uC788\uC744 \uAC83 \uAC19\uC544? \uAC01\uC624\uD574!"

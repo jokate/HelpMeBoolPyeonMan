@@ -1,0 +1,18 @@
+{
+    "name": "BoolPyeon.Meta",
+    "rootNamespace": "BoolPyeon.Meta",
+    "references": [
+        "BoolPyeon.Battle",
+        "BoolPyeon.Save",
+        "BoolPyeon.Dialogue"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

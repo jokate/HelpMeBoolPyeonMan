@@ -1,52 +1,60 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.Networking;
+using BoolPyeon.MiniGames;
+using BoolPyeon.Input.Interaction;
 
-public class CutterMove : MonoBehaviour
+public class CutterMove : MiniGameBase
 {
-    private bool isClicked = false;
-    private GameObject target;
-    // Start is called before the first frame update
-    void Start()
-    {
+    public DragInteraction drag = new DragInteraction();
+    // 난이도 1 의 최대 허용 속도(월드 단위/초). 예전 판정 0.1초에 1.5 이동과 같음
+    public float baseMaxSpeed = 15f;
 
+    private PizzaChecker checker;
+
+    protected override Animator ResultAnimator => checker != null ? checker.GetComponent<Animator>() : null;
+
+    protected override void OnBegin(MiniGameContext ctx)
+    {
+        if (drag.target == null)
+        {
+            Transform cutter = FindChildByName(transform, "Cutter");
+            drag.target = cutter != null ? cutter : transform;
+        }
+        checker = GetComponentInChildren<PizzaChecker>();
+        if (checker != null)
+        {
+            Watch(checker);
+        }
     }
 
-    // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonDown(0))
+        if (!IsRunning)
         {
-            isClicked = true;
-            CastRay();
-        } else if(Input.GetMouseButtonUp(0))
+            return;
+        }
+        drag.Tick();
+        float maxSpeed = baseMaxSpeed * Mathf.Pow(0.85f, Context.Difficulty - 1);
+        if (drag.IsDragging && drag.Speed > maxSpeed)
         {
-            isClicked = false;
-            target = null;
+            Resolve(MiniGameResult.Failed);
         }
-        if (isClicked) {
-            Vector3 mousePos = Input.mousePosition;
-            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-            if(target != null)
-                target.transform.position = new Vector2(mousePos.x, mousePos.y);
-        }
-    } 
-    private void FixedUpdate()
-    {
-        
     }
 
-    void CastRay() {
-        Vector3 mousePos = Input.mousePosition;
-        mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-        Ray2D ray = new Ray2D(mousePos, Vector2.zero);
-        RaycastHit2D hit = Physics2D.Raycast(ray.origin, ray.direction);
+    protected override void OnResolved(MiniGameResult result)
+    {
+        drag.Release();
+        base.OnResolved(result);
+    }
 
-        if(hit)
-            if (hit.collider.gameObject.name == "Cutter")
+    private static Transform FindChildByName(Transform root, string name)
+    {
+        foreach (Transform t in root.GetComponentsInChildren<Transform>(true))
+        {
+            if (t.name == name)
             {
-                target = hit.transform.gameObject;
+                return t;
             }
+        }
+        return null;
     }
 }

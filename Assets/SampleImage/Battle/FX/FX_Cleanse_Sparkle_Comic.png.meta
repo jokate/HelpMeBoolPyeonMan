@@ -1,0 +1,341 @@
+fileFormatVersion: 2
+guid: 3f798d69989fe5a4b906f329a4aeecfb
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5019297546879101770
+    second: FX_Cleanse_Sparkle_Comic_0
+  - first:
+      213: 3051316585674379227
+    second: FX_Cleanse_Sparkle_Comic_1
+  - first:
+      213: 5499580655597191959
+    second: FX_Cleanse_Sparkle_Comic_2
+  - first:
+      213: 2954817910300263231
+    second: FX_Cleanse_Sparkle_Comic_3
+  - first:
+      213: 7153906469062273266
+    second: FX_Cleanse_Sparkle_Comic_4
+  - first:
+      213: -2402167516610387285
+    second: FX_Cleanse_Sparkle_Comic_5
+  - first:
+      213: -8473338279057621958
+    second: FX_Cleanse_Sparkle_Comic_6
+  - first:
+      213: -372592145480086405
+    second: FX_Cleanse_Sparkle_Comic_7
+  - first:
+      213: 8073829198677106112
+    second: FX_Cleanse_Sparkle_Comic_8
+  - first:
+      213: -1321925614947010067
+    second: FX_Cleanse_Sparkle_Comic_9
+  - first:
+      213: 4606569922364637666
+    second: FX_Cleanse_Sparkle_Comic_10
+  - first:
+      213: 1668302245042136643
+    second: FX_Cleanse_Sparkle_Comic_11
+  - first:
+      213: -5780749408438780256
+    second: FX_Cleanse_Sparkle_Comic_12
+  - first:
+      213: -4927734767107615204
+    second: FX_Cleanse_Sparkle_Comic_13
+  - first:
+      213: 4660407434507576852
+    second: FX_Cleanse_Sparkle_Comic_14
+  - first:
+      213: 664453641299811550
+    second: FX_Cleanse_Sparkle_Comic_15
+  - first:
+      213: 8016331017198908191
+    second: FX_Cleanse_Sparkle_Comic_16
+  - first:
+      213: -1670424286772128866
+    second: FX_Cleanse_Sparkle_Comic_17
+  - first:
+      213: -5488998601556304581
+    second: FX_Cleanse_Sparkle_Comic_18
+  - first:
+      213: -5922626282455604955
+    second: FX_Cleanse_Sparkle_Comic_19
+  - first:
+      213: -2524238792039592455
+    second: FX_Cleanse_Sparkle_Comic_20
+  - first:
+      213: 7644912011569791906
+    second: FX_Cleanse_Sparkle_Comic_21
+  - first:
+      213: -8254796801206255505
+    second: FX_Cleanse_Sparkle_Comic_22
+  - first:
+      213: -5490084195280929246
+    second: FX_Cleanse_Sparkle_Comic_23
+  - first:
+      213: 7389856893399163988
+    second: FX_Cleanse_Sparkle_Comic_24
+  - first:
+      213: -5275592478988984917
+    second: FX_Cleanse_Sparkle_Comic_25
+  - first:
+      213: 7399191484897338980
+    second: FX_Cleanse_Sparkle_Comic_26
+  - first:
+      213: 2917922800982291354
+    second: FX_Cleanse_Sparkle_Comic_27
+  - first:
+      213: -8440663017563988741
+    second: FX_Cleanse_Sparkle_Comic_28
+  - first:
+      213: -8411962756315251509
+    second: FX_Cleanse_Sparkle_Comic_29
+  - first:
+      213: 7311237697155317901
+    second: FX_Cleanse_Sparkle_Comic_30
+  - first:
+      213: 4484287281263058251
+    second: FX_Cleanse_Sparkle_Comic_31
+  - first:
+      213: 6503149493643296993
+    second: FX_Cleanse_Sparkle_Comic_32
+  - first:
+      213: -2040772955797013206
+    second: FX_Cleanse_Sparkle_Comic_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 1104
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: FX_Cleanse_Sparkle_Comic_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 276
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17cecec9f34d50f45b02731717527acb
+      internalID: -5019297546879101770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Cleanse_Sparkle_Comic_1
+      rect:
+        serializedVersion: 2
+        x: 276
+        y: 0
+        width: 276
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649327af90c56834ba0279c432c17604
+      internalID: 3051316585674379227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Cleanse_Sparkle_Comic_2
+      rect:
+        serializedVersion: 2
+        x: 552
+        y: 0
+        width: 276
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61366e82541df604a866081f35d72256
+      internalID: 5499580655597191959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: FX_Cleanse_Sparkle_Comic_3
+      rect:
+        serializedVersion: 2
+        x: 828
+        y: 0
+        width: 276
+        height: 276
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979c82e9525756c48b78554bb311a6d9
+      internalID: 2954817910300263231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 79c34611b28880f47a72177063835231
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      FX_Cleanse_Sparkle_Comic_0: -5019297546879101770
+      FX_Cleanse_Sparkle_Comic_1: 3051316585674379227
+      FX_Cleanse_Sparkle_Comic_10: 4606569922364637666
+      FX_Cleanse_Sparkle_Comic_11: 1668302245042136643
+      FX_Cleanse_Sparkle_Comic_12: -5780749408438780256
+      FX_Cleanse_Sparkle_Comic_13: -4927734767107615204
+      FX_Cleanse_Sparkle_Comic_14: 4660407434507576852
+      FX_Cleanse_Sparkle_Comic_15: 664453641299811550
+      FX_Cleanse_Sparkle_Comic_16: 8016331017198908191
+      FX_Cleanse_Sparkle_Comic_17: -1670424286772128866
+      FX_Cleanse_Sparkle_Comic_18: -5488998601556304581
+      FX_Cleanse_Sparkle_Comic_19: -5922626282455604955
+      FX_Cleanse_Sparkle_Comic_2: 5499580655597191959
+      FX_Cleanse_Sparkle_Comic_20: -2524238792039592455
+      FX_Cleanse_Sparkle_Comic_21: 7644912011569791906
+      FX_Cleanse_Sparkle_Comic_22: -8254796801206255505
+      FX_Cleanse_Sparkle_Comic_23: -5490084195280929246
+      FX_Cleanse_Sparkle_Comic_24: 7389856893399163988
+      FX_Cleanse_Sparkle_Comic_25: -5275592478988984917
+      FX_Cleanse_Sparkle_Comic_26: 7399191484897338980
+      FX_Cleanse_Sparkle_Comic_27: 2917922800982291354
+      FX_Cleanse_Sparkle_Comic_28: -8440663017563988741
+      FX_Cleanse_Sparkle_Comic_29: -8411962756315251509
+      FX_Cleanse_Sparkle_Comic_3: 2954817910300263231
+      FX_Cleanse_Sparkle_Comic_30: 7311237697155317901
+      FX_Cleanse_Sparkle_Comic_31: 4484287281263058251
+      FX_Cleanse_Sparkle_Comic_32: 6503149493643296993
+      FX_Cleanse_Sparkle_Comic_33: -2040772955797013206
+      FX_Cleanse_Sparkle_Comic_4: 7153906469062273266
+      FX_Cleanse_Sparkle_Comic_5: -2402167516610387285
+      FX_Cleanse_Sparkle_Comic_6: -8473338279057621958
+      FX_Cleanse_Sparkle_Comic_7: -372592145480086405
+      FX_Cleanse_Sparkle_Comic_8: 8073829198677106112
+      FX_Cleanse_Sparkle_Comic_9: -1321925614947010067
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

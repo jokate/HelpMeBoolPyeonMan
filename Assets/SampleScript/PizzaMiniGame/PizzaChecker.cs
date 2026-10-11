@@ -1,61 +1,7 @@
-using System.Collections;
-using System.Collections.Generic;
-using Unity.VisualScripting.Antlr3.Runtime;
-using UnityEngine;
+using BoolPyeon.MiniGames;
 
-public class PizzaChecker : MonoBehaviour
+// 속도 판정은 CutterMove(DragInteraction.Speed)가 맡는다. 여기서는 통과 판정만 한다.
+// TriggerTagCondition 그대로 사용(클래스 이름·씬 배치는 참조 유지를 위해 유지).
+public class PizzaChecker : TriggerTagCondition
 {
-    private Animator anim;
-    private Vector2 originalPos;
-    private float dist;
-    private bool isFailed = false;
-    // Start is called before the first frame update
-    void Start()
-    {
-
-        anim = GetComponent<Animator>();
-        StartCoroutine(TimeCheck());
-        StartCoroutine(FailedCheck());
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-    IEnumerator TimeCheck()
-    {
-        while(true)
-        {
-            originalPos = transform.position;
-            float time = 0.1f;
-            while(time > 0.0f)
-            {
-                time -= Time.deltaTime;
-                yield return null;
-            }
-            dist = ((Vector2)transform.position - originalPos).magnitude;
-            if (dist > 1.5f)
-            {
-                isFailed = true;
-                gameObject.GetComponentInParent<CutterMove>().enabled = false;
-                break;
-            }
-        }
-    }
-    IEnumerator FailedCheck()
-    {
-        yield return new WaitUntil(() => isFailed == true);
-        anim.SetBool("isFailed", true);
-    }
-    private void OnTriggerEnter2D(Collider2D collision)
-    {
-        if (collision.CompareTag("ClearObject"))
-        {
-            Debug.Log("Clear?");
-            StopAllCoroutines();
-            anim.SetBool("isSuccess", true);
-            gameObject.GetComponentInParent<CutterMove>().enabled = false;
-        }
-    }
 }

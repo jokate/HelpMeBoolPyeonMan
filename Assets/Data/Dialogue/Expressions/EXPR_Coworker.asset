@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 972a80e79e254984b84192e70c9969b2, type: 3}
+  m_Name: EXPR_Coworker
+  m_EditorClassIdentifier: BoolPyeon.Dialogue::BoolPyeon.Dialogue.SpeakerExpressionSet
+  speakerName: "\uD68C\uC0AC\uC6D0"
+  expressions:
+  - key: Default
+    sprite: {fileID: 21300000, guid: 95b192c7b0981094ca13652616fa0e05, type: 3}
+  - key: Panic
+    sprite: {fileID: 21300000, guid: ce88c4e0cd4121a4188fcd660c2303e4, type: 3}
+  - key: Determined
+    sprite: {fileID: 21300000, guid: a83367006b57efc49a84b3fb3076468a, type: 3}
+  - key: Relieved
+    sprite: {fileID: 21300000, guid: 98b4cd021ce26d440b63f64499e94497, type: 3}
+  - key: Tired
+    sprite: {fileID: 21300000, guid: 137580bb4b4390143a014036469cd8fe, type: 3}

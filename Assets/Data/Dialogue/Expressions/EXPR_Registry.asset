@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b071f11cbcb4d60469cd7e18deb545d5, type: 3}
+  m_Name: EXPR_Registry
+  m_EditorClassIdentifier: BoolPyeon.Dialogue::BoolPyeon.Dialogue.SpeakerExpressionRegistry
+  sets:
+  - {fileID: 11400000, guid: 1d44cadd3ad9fa94bb2d5c924ad8a027, type: 2}
+  - {fileID: 11400000, guid: 624d1a28e0098184fa19d3a2675feb2b, type: 2}
+  - {fileID: 11400000, guid: eddfa3288fbf31c49be650046a887488, type: 2}
+  - {fileID: 11400000, guid: 69689254c14279343a18a20ca8802616, type: 2}
+  - {fileID: 11400000, guid: 1d8314e64f3fd1c419bc824d655633a2, type: 2}
+  - {fileID: 11400000, guid: 1c691755e7c85714bb26690f0af44281, type: 2}
+  - {fileID: 11400000, guid: b77f70c90b039054184509ead596d5a9, type: 2}
+  - {fileID: 11400000, guid: 5d48660ca1ef26340aed0d4fb8eed5b7, type: 2}
+  - {fileID: 11400000, guid: 908192a75f5eed9488c83c12b7742976, type: 2}
+  - {fileID: 11400000, guid: 0a353c807d7840243ad1a36c29187f83, type: 2}

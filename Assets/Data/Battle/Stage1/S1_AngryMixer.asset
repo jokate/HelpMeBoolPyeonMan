@@ -1,0 +1,90 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dc069eb3682d3e4b94aa31e8f073934, type: 3}
+  m_Name: S1_AngryMixer
+  m_EditorClassIdentifier: BoolPyeon.Battle::BoolPyeon.Battle.MonsterDefinition
+  displayName: "\uD3ED\uC8FC \uBBF9\uC11C\uAE30"
+  maxHp: 20
+  attack: 3
+  defense: 0
+  type: 0
+  role: 0
+  tint: {r: 1, g: 1, b: 1, a: 1}
+  spriteOverride: {fileID: 21300000, guid: 062ba75ed5f5a7b4c9f3642738880308, type: 3}
+  attackSprite: {fileID: 21300000, guid: 77de4fb1a27aaac4ebdcf962442ed10b, type: 3}
+  hitSprite: {fileID: 21300000, guid: 04577fd5b86624642a0d76d1d130f411, type: 3}
+  actions:
+  - id: jab
+    kind: 0
+    weight: 1.2
+    damageMultiplier: 0.7
+    cooldownTurns: 0
+    statuses: []
+    miniGameIds: []
+    targetsAllies: 0
+    effectTurns: 1
+    effectMagnitude: 0
+    considerations: []
+  - id: basic
+    kind: 0
+    weight: 0.8
+    damageMultiplier: 1
+    cooldownTurns: 0
+    statuses: []
+    miniGameIds: []
+    targetsAllies: 0
+    effectTurns: 1
+    effectMagnitude: 0
+    considerations: []
+  - id: rage
+    kind: 5
+    weight: 0.5
+    damageMultiplier: 1
+    cooldownTurns: 3
+    statuses: []
+    miniGameIds: []
+    targetsAllies: 0
+    effectTurns: 2
+    effectMagnitude: 0
+    considerations: []
+  - id: blend
+    kind: 2
+    weight: 0.6
+    damageMultiplier: 1.3
+    cooldownTurns: 2
+    statuses:
+    - type: 2
+      turns: 1
+      magnitude: 0.5
+    miniGameIds:
+    - pizza_serve
+    - egg_break
+    - samgak_kimbap
+    targetsAllies: 0
+    effectTurns: 1
+    effectMagnitude: 0
+    considerations: []
+  randomness: 0.7
+  actionPattern: 00000000
+  specialInterval: 0
+  specialDamageMultiplier: 2
+  evasionMiniGameIds: []
+  specialMiniGameIds:
+  - pizza_serve
+  - egg_break
+  - samgak_kimbap
+  penalty: 2
+  penaltyTurns: 1
+  penaltyMagnitude: 0.5
+  isBoss: 0
+  phase2Threshold: 0
+  phase2Actions: []

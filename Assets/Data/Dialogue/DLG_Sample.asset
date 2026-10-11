@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d875b3d6d4592124cb6520c8fecf3d57, type: 3}
+  m_Name: DLG_Sample
+  m_EditorClassIdentifier: BoolPyeon.Dialogue::BoolPyeon.Dialogue.DialogueDefinition
+  id: DLG_Sample
+  lines:
+  - speakerName: "\uBD88\uD3B8\uB9E8"
+    portrait: {fileID: 0}
+    expression: Default
+    text: "\uC815\uD654 \uC791\uC804 \uC2DC\uC791 \uC804, \uBA87 \uAC00\uC9C0 \uD655\uC778\uD560
+      \uAC8C \uC788\uB2E4."
+  - speakerName: "\uAC15\uD654 \uC694\uC6D0"
+    portrait: {fileID: 0}
+    expression: Encourage
+    text: "\uCCB4\uB825\uC774\uB791 \uACF5\uACA9\uB825\uC740 \uBCF8\uBD80\uC5D0\uC11C
+      \uBBF8\uB9AC \uC62C\uB824\uB480\uC5B4\uC694."
+  - speakerName: "\uBAA8\uB4C8 \uC694\uC6D0"
+    portrait: {fileID: 0}
+    expression: Thinking
+    text: "\uC774\uBC88\uC5D4 \uBC18\uBCF5 \uD134 \uBAA8\uB4C8\uC744 \uC7A5\uCC29\uD588\uC73C\uB2C8
+      \uBBFF\uC5B4\uBD10\uC694."
+  - speakerName: "\uBD88\uD3B8\uB9E8"
+    portrait: {fileID: 0}
+    expression: Joy
+    text: "\uC88B\uB2E4. \uADF8\uB7FC \uD654\uBA74\uC744 \uB20C\uB7EC\uC11C \uB2E4\uC74C\uC73C\uB85C
+      \uB118\uC5B4\uAC00 \uBCF4\uC790."
+  - speakerName: "\uBD88\uD3B8\uB9E8"
+    portrait: {fileID: 0}
+    expression: Default
+    text: "\uC774\uAC8C \uB9C8\uC9C0\uB9C9 \uC904\uC774\uB2E4. \uD0ED\uD558\uBA74
+      \uB300\uD654\uAC00 \uB05D\uB09C\uB2E4."

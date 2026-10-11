@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4a28f29b765e1bc489144b07893d3bc6, type: 3}
+  m_Name: PU_MaxHp
+  m_EditorClassIdentifier: BoolPyeon.Meta::BoolPyeon.Meta.PermanentUpgradeDefinition
+  displayName: "\uCD5C\uB300 HP"
+  kind: 0
+  icon: {fileID: 21300000, guid: c881ba544d5132c4f860fb10fc2c11dc, type: 3}
+  costs: 050000000a00000014000000
+  values: 050000000500000005000000
